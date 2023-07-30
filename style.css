@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=DotGothic16&family=IBM+Plex+Sans+JP:wght@200&display=swap');
+
+body {
+    font-size: 16px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+}
+header .image-container {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+}
+header .image-container img {
+    height: 100vh;
+}
+header .mask {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header .title {
+    color: rgba(255, 255, 255, 0.8);
+    height: 100vh;
+    position: relative;
+}
+header .title p,h1 {
+    position: absolute;
+    left: 70px;
+}
+header .title p {
+    bottom: 50px;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+}
+header .title h1 {
+    bottom: 90px;
+    font-size: 70px;
+}
+
+.trigger {
+    height: 400px;
+}
+
+main {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 70px;
+}
+
+.midashi {
+    font-size: 35px;
+    border-bottom: solid 2px #ffffff;
+    width: 70%;
+    padding-left: 15px;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+}
